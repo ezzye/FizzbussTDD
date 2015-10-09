@@ -19,5 +19,20 @@ describe 'fizzbuzz'  do
   it 'returns buzz when passed 20' do
     expect(fizzbuzz(20)).to eq 'buzz'
   end
+  it 'returns fizzbuzz when passed 15' do
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+  it 'returns fizzbuzz when passed 45' do
+    expect(fizzbuzz(45)).to eq 'fizzbuzz'
+  end
+  it 'returns fizzbuzz when passed 60' do
+    expect(fizzbuzz(60)).to eq 'fizzbuzz'
+  end
+  it 'returns 7 when passed 7' do
+    expect(fizzbuzz(7)).to eq 7
+  end
+  it 'returns 11 when passed 11' do
+    expect(fizzbuzz(11)).to eq 11
+  end
 
 end
